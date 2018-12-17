@@ -1,7 +1,8 @@
 1) What are three interesting facts about you?
-
+I have performed in New York City's Carnegie Hall. I have been alive for 3 calendar decades: the '90s, '00s, and '10s. I present a genetic trait that is theorized to originate from fish gills.
 
 2) What's your favorite song and movie?
-
+Favorite song: Django Jane by Janelle Monae. Favorite movie: Ferris Bueller's Day Off
 
 3) Why do you want to learn how to program?
+I think programming is an essential skill in creating simpler systems across all scientific disciplines. But also it's a required class for the Bioengineering major.
