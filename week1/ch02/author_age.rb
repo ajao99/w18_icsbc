@@ -5,3 +5,10 @@
 
 
 ### Your Code Here ###
+
+author_age_secs = 1160000000.0
+# secs per min: 60
+# mins per hr: 60
+# hrs per day: 24
+daysperyr = 365.25
+puts 'The author is ' + (author_age_secs / 60 / 60 / 24 / daysperyr).to_s + ' years old.'

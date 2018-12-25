@@ -5,9 +5,12 @@
 
 
 ### Your Code Here ###
-secspermin = 60
-minsperhr = 60
-hrsperday = 24
-days_since_3_23_18 = 280
-caldaysold = (36*366) + (114*365) + days_since_3_23_18
-puts caldaysold * hrsperday * minsperhr * secspermin
+
+# secs per min = 60
+# mins per hr = 60
+# hrs per day = 24
+# number of leap years since March 23, 1868: 36
+# number of regular years since March 23, 1868: 114
+# Days from March 23 to December 28, 2018: 280
+caldaysold = (36*366) + (114*365) + 280
+puts 'As of December 28, 2018, UC Berkeley is ' + (caldaysold * 24 * 60 * 60).to_s + ' seconds old.'
