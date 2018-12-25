@@ -5,3 +5,9 @@
 
 
 ### Your Code Here ###
+secspermin = 60
+minsperhr = 60
+hrsperday = 24
+days_since_3_23_18 = 280
+caldaysold = (36*366) + (114*365) + days_since_3_23_18
+puts caldaysold * hrsperday * minsperhr * secspermin
