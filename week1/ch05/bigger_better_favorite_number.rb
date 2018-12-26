@@ -4,3 +4,7 @@
 
 
 ### Your Code Here ###
+puts 'What\'s your favorite number?'
+favnum = gets.chomp
+puts 'You know what\'s a bigger and better number than ' + favnum.to_s + '?'
+puts (favnum.to_i + 1).to_s + '! This could be your new favorite number!'
