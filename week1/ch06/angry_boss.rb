@@ -4,3 +4,6 @@
 
 
 ### Your Code Here ###
+puts '(Tell your boss what you deserve!)'
+demand = gets.chomp
+puts '"' + demand.upcase.to_s + '"' + '?!' + ' LOL YOU REALLY THOUGHT! YOU\'RE F I R E D!!!'
