@@ -6,7 +6,7 @@
 
 ### Your Code Here ###
 
-author_age_secs = 1160000000.0
+author_age_secs = 1160_000_000.0
 # secs per min: 60
 # mins per hr: 60
 # hrs per day: 24
