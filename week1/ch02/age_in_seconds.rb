@@ -6,9 +6,9 @@
 
 ### Your Code Here ###
 
-# secs per min = 60
-# mins per hr = 60
-# hrs per day = 24
+# secs per min: 60
+# mins per hr: 60
+# hrs per day: 24
 # number of leap years since March 23, 1868: 36
 # number of regular years since March 23, 1868: 114
 # Days from March 23 to December 28, 2018: 280
