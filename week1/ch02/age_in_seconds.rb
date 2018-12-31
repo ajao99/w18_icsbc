@@ -12,5 +12,5 @@
 # number of leap years since March 23, 1868: 36
 # number of regular years since March 23, 1868: 114
 # Days from March 23 to December 28, 2018: 280
-caldaysold = (36*366) + (114*365) + 280
-puts 'As of December 28, 2018, UC Berkeley is ' + (caldaysold * 24 * 60 * 60).to_s + ' seconds old.'
+cal_age_in_days = (36*366) + (114*365) + 280
+puts 'As of December 28, 2018, UC Berkeley is ' + (cal_age_in_days * 24 * 60 * 60).to_s + ' seconds old.'
