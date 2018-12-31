@@ -7,8 +7,8 @@
 ### Your Code Here ###
 
 author_age_in_secs = 1160_000_000.0
-# secs per min : 60
-# mins per hr : 60
-# hrs per day : 24
+# secs per min: 60
+# mins per hr: 60
+# hrs per day: 24
 days_per_yr = 365.25
 puts 'The author is ' + (author_age_in_secs / 60 / 60 / 24 / days_per_yr).to_s + ' years old.'
