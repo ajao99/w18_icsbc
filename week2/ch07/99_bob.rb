@@ -12,7 +12,7 @@ while bottles_on_wall.to_i > 2
   if bottles_on_wall.to_i == 2
     puts ''
     puts '2 bottles of beer on the wall, 2 bottles of beer.'                       # copy/pasted lines
-    puts 'Take one down and pass it around, 1 bottle of beer on the wall.'         # 15 through 22 because
+    puts 'Take one down and pass it around, 1 bottle of beer on the wall.'         # 14 through 21 because
     puts ''                                                                        # of inconsistent
     puts '1 bottle of beer on the wall, 1 bottle of beer.'                         # grammar in lyrics:
     puts 'Take one down and pass it around, no more bottles of beer on the wall.'  # bottle/bottles,
