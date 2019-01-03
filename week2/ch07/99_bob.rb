@@ -3,8 +3,7 @@
 
 
 ### Your Code Here ###
-puts 'For full \'99 Bottles of Beer\' lyrics, enter 99.'
-bottles_on_wall = gets.chomp
+bottles_on_wall = 99
 while bottles_on_wall.to_i > 2
   puts ''
   puts bottles_on_wall.to_s + ' bottles of beer on the wall, ' + bottles_on_wall.to_s + ' bottles of beer.'
