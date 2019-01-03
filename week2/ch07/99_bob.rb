@@ -8,7 +8,7 @@ while bottles_on_wall.to_i > 2
   puts ''
   puts bottles_on_wall.to_s + ' bottles of beer on the wall, ' + bottles_on_wall.to_s + ' bottles of beer.'
   puts 'Take one down and pass it around, ' + (bottles_on_wall.to_i - 1).to_s + ' bottles of beer on the wall.'
-  bottles_on_wall = (bottles_on_wall.to_i - 1)
+  bottles_on_wall -= 1
   if bottles_on_wall.to_i == 2
     puts ''
     puts '2 bottles of beer on the wall, 2 bottles of beer.'                       # copy/pasted lines
