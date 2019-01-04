@@ -1,6 +1,6 @@
 puts 'COME GIVE GRANNY A KISS!'
 
-while (true)
+while true
   input = gets.chomp
   if input == 'BYE'
     break

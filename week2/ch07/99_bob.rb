@@ -1,8 +1,3 @@
-# Print out the 99 Bottles of Beer lyrics as shown here:
-# http://www.99-bottles-of-beer.net/lyrics.html
-
-
-### Your Code Here ###
 bottles_on_wall = 99
 while bottles_on_wall.to_i > 2
   puts ''

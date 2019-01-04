@@ -1,9 +1,12 @@
-# Remember, leap years are divisible by 4, but not by 100 unless also by 400
-
-### Get input from user: ###
 print("Please enter a starting year: ")
-starting = gets.chomp ## FIXME?
-print("Now enter a ending year: ")
-ending = gets.chomp ## FIXME?
+starting = gets.chomp.to_i
 
-### Rest of your code here ###
+print("Now enter a ending year: ")
+ending = gets.chomp.to_i
+
+while starting <= ending
+  if starting.to_i % 4 == 0 && starting.to_i % 100 != 0 || starting.to_i % 400 == 0
+    puts starting.to_s + ' is a leap year.'
+  end
+  starting += 1
+end
